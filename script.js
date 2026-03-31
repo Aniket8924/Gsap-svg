@@ -3,7 +3,7 @@ let finalPath = `M 10 100 Q 500 100 990 100`;
 
 let string = document.querySelector('.cont');
 
-string.addEventListener('mousemove',function(dets){
+string.('mousemove',function(dets){
     path = `M 10 100 Q ${dets.x} ${dets.y} 990 100`;
     console.log(path);
 
